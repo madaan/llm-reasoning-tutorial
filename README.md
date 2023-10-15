@@ -1,6 +1,9 @@
 # Reasoning with (Large) Language Models
 
-<img src="res/tutorial_dalle3.png" width="400" height="400">
+<div align="center">
+    <img src="res/tutorial_dalle3.png" width="400">
+</div>
+
 
 
 
