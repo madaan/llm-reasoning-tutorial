@@ -16,7 +16,7 @@
 
 ## TLDR
 
-- A central theme of both these tutorials is a set of key techniques for prompting large language models. A combination of these techniques capture many of the recent works on prompting LLMs.
+- A central theme of both these tutorials is a set of key techniques for prompting large language models. Combining these techniques captures many of the recent works on prompting LLMs.
 
 <hr/>
 
