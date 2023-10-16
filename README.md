@@ -25,4 +25,4 @@
 
 ### Other resources
 
-- [My blog](https://madaan.github.io/prompting) on prompting, based on the tutorial at CMU LTI Seminar on Large Language Models (April 2023).
+- [My blog](https://madaan.github.io/prompting) on prompting large language models, used for a tutorial at the CMU LTI Seminar on Large Language Models (April 2023). In the blog, I draw an analogy between LLMs as stochastic compilers and prompting as a high-level language for specifying tasks.
