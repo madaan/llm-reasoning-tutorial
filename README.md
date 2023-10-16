@@ -21,7 +21,7 @@
 <hr/>
 
 <div align="center">
-    <img src="res/key_techniques.png" width="400">
+    <img src="res/key_techniques.png" width="600">
 </div>
 
 
