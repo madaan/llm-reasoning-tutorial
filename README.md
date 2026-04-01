@@ -30,13 +30,23 @@
 ## Notebooks
 
 
+- [Foundations: From SGD to Transformers](https://github.com/madaan/llm-reasoning-tutorial/blob/main/Part_0_Foundations.ipynb): Builds up the key concepts behind modern language models from scratch — gradient descent, backpropagation, word embeddings, attention mechanisms, and the full transformer block. All interactive, runs locally with PyTorch (no API keys needed).
+
 - [Language Models](https://github.com/madaan/llm-reasoning-tutorial/blob/main/Part_1_Language_Models.ipynb): An overview of language models, focusing on GPT-2's architecture and operation. Contains interactive demonstrations of how these models estimate word sequence probabilities, predict the next tokens, and generate coherent text.
 
-- [Prompting Basics](https://github.com/madaan/llm-reasoning-tutorial/blob/main/Part_2_Prompting_Basics.ipynb): Demonstrates few-shot and zero-shot prompting. Utilizing the OpenAI API, allows playing with parameters like temperature, stop tokens, and maximum tokens, observing their impact on language model outputs.
+- [Prompting Basics](https://github.com/madaan/llm-reasoning-tutorial/blob/main/Part_2_Prompting_Basics.ipynb): Demonstrates few-shot and zero-shot prompting. Utilizing an OpenAI-compatible API, allows playing with parameters like temperature, stop tokens, and maximum tokens, observing their impact on language model outputs.
 
 - [Prompting Key Techniques](https://github.com/madaan/llm-reasoning-tutorial/blob/main/Part_3_Prompting_Key_Techniques.ipynb): Shows a typical workflow for prompting language models, including choosing between prompts (direct and chain-of-thought prompts) and parsing outputs for evaluation. It also includes a demonstration of the `memory` assisted prompting, where the prompt is updated with the generated text at each step.
 
+## Setup
 
+Parts 0 and 1 run entirely locally using PyTorch and Hugging Face transformers (no API key needed).
+
+Parts 2 and 3 require an OpenAI-compatible API. You can use:
+- **OpenAI**: Set `OPENAI_API_KEY` in your environment
+- **xAI (Grok)**: Set `XAI_API_KEY` in your environment
+
+Then adjust the `BASE_URL` and `DEFAULT_MODEL` variables in the notebook setup cell.
 
 ## Other resources
 
