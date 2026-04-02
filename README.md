@@ -44,7 +44,7 @@ Parts 0 and 1 run entirely locally using PyTorch and Hugging Face transformers (
 
 Parts 2 and 3 require an OpenAI-compatible API. You can use:
 - **OpenAI**: Set `OPENAI_API_KEY` in your environment
-- **xAI (Grok)**: Set `XAI_API_KEY` in your environment
+- **xAI (Grok)**: Set `XAI_API_KEY` in your environment (defaults to `grok-420-abtest-reasoning`)
 
 Then adjust the `BASE_URL` and `DEFAULT_MODEL` variables in the notebook setup cell.
 
